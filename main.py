@@ -18,7 +18,7 @@ BOT_TOKEN = os.getenv('BOT_TOKEN', '')
 API_KEY = os.getenv('API_KEY', '')
 API_BASE_URL = 'https://bio.ffutils.tech/api/update_bio'
 OWNER_USERNAME = '@Adityasingh1980'
-REQUIRED_CHANNEL = 'addy_prime_11'
+REQUIRED_CHANNEL = '@addy_prime_11'
 
 if not BOT_TOKEN:
     logger.error("BOT_TOKEN environment variable not set!")
